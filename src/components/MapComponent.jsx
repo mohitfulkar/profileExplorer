@@ -12,7 +12,6 @@ const MapComponent = ({ latitude, longitude }) => {
   const [loading, setLoading] = useState(true);
 
   const token = import.meta.env.VITE_MAP_ACCESS_API;
-  console.log(token)
 
   useEffect(() => {
     setViewPort((prevViewPort) => ({
