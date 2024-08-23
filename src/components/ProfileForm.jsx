@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from "react";
 
-const ProfileForm = ({ onCreate, onUpdate, editingProfile, setEditingProfile }) => {
+const ProfileForm = ({
+  onCreate,
+  onUpdate,
+  editingProfile,
+  setEditingProfile,
+}) => {
   const [profile, setProfile] = useState({
     name: "",
     description: "",
@@ -75,12 +80,17 @@ const ProfileForm = ({ onCreate, onUpdate, editingProfile, setEditingProfile }) 
   };
 
   return (
-    <form onSubmit={handleSubmit} className="p-6 bg-white shadow-lg rounded-lg border border-gray-200">
+    <form
+      onSubmit={handleSubmit}
+      className="p-6 bg-white shadow-lg rounded-lg border border-gray-200"
+    >
       <h2 className="text-2xl font-semibold mb-6 text-gray-800">
         {editingProfile ? "Edit Profile" : "Add Profile"}
       </h2>
       <div className="mb-5">
-        <label className="block text-sm font-medium text-gray-700 mb-2">Name:</label>
+        <label className="block text-sm font-medium text-gray-700 mb-2">
+          Name:
+        </label>
         <input
           type="text"
           name="name"
@@ -91,7 +101,9 @@ const ProfileForm = ({ onCreate, onUpdate, editingProfile, setEditingProfile }) 
         />
       </div>
       <div className="mb-5">
-        <label className="block text-sm font-medium text-gray-700 mb-2">Description:</label>
+        <label className="block text-sm font-medium text-gray-700 mb-2">
+          Description:
+        </label>
         <input
           type="text"
           name="description"
@@ -102,7 +114,9 @@ const ProfileForm = ({ onCreate, onUpdate, editingProfile, setEditingProfile }) 
         />
       </div>
       <div className="mb-5">
-        <label className="block text-sm font-medium text-gray-700 mb-2">Contact:</label>
+        <label className="block text-sm font-medium text-gray-700 mb-2">
+          Contact:
+        </label>
         <input
           type="text"
           name="contact"
@@ -113,7 +127,9 @@ const ProfileForm = ({ onCreate, onUpdate, editingProfile, setEditingProfile }) 
         />
       </div>
       <div className="mb-5">
-        <label className="block text-sm font-medium text-gray-700 mb-2">Interests:</label>
+        <label className="block text-sm font-medium text-gray-700 mb-2">
+          Interests:
+        </label>
         <input
           type="text"
           name="interests"
@@ -123,7 +139,21 @@ const ProfileForm = ({ onCreate, onUpdate, editingProfile, setEditingProfile }) 
         />
       </div>
       <div className="mb-5">
-        <label className="block text-sm font-medium text-gray-700 mb-2">Photo URL:</label>
+        <label className="block text-sm font-medium text-gray-700 mb-2">
+          Interests:
+        </label>
+        <input
+          type="text"
+          name="location"
+          value={profile.location}
+          onChange={handleChange}
+          className="w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+      </div>
+      <div className="mb-5">
+        <label className="block text-sm font-medium text-gray-700 mb-2">
+          Photo URL:
+        </label>
         <input
           type="text"
           name="photo"
@@ -133,7 +163,9 @@ const ProfileForm = ({ onCreate, onUpdate, editingProfile, setEditingProfile }) 
         />
       </div>
       <div className="mb-5">
-        <label className="block text-sm font-medium text-gray-700 mb-2">LinkedIn URL:</label>
+        <label className="block text-sm font-medium text-gray-700 mb-2">
+          LinkedIn URL:
+        </label>
         <input
           type="text"
           name="linkedin"
@@ -143,7 +175,9 @@ const ProfileForm = ({ onCreate, onUpdate, editingProfile, setEditingProfile }) 
         />
       </div>
       <div className="mb-5">
-        <label className="block text-sm font-medium text-gray-700 mb-2">Twitter URL:</label>
+        <label className="block text-sm font-medium text-gray-700 mb-2">
+          Twitter URL:
+        </label>
         <input
           type="text"
           name="twitter"
@@ -153,7 +187,9 @@ const ProfileForm = ({ onCreate, onUpdate, editingProfile, setEditingProfile }) 
         />
       </div>
       <div className="mb-5">
-        <label className="block text-sm font-medium text-gray-700 mb-2">GitHub URL:</label>
+        <label className="block text-sm font-medium text-gray-700 mb-2">
+          GitHub URL:
+        </label>
         <input
           type="text"
           name="github"

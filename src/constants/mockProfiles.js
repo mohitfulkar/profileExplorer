@@ -9,6 +9,7 @@ import Pic7 from "../images/pic7.jpg";
 import Pic8 from "../images/Pic8.jpg";
 import Pic9 from "../images/Pic9.jpg";
 import Pic10 from "../images/Pic10.jpg";
+import { LuActivity } from "react-icons/lu";
 
 let mockProfiles = [
   {
@@ -28,6 +29,7 @@ let mockProfiles = [
       longitude: -0.127647,
       latitude: 51.507351,
     },
+    location: "London, United Kingdom",
   },
   {
     id: 2,
@@ -46,6 +48,7 @@ let mockProfiles = [
       longitude: -0.127647,
       latitude: 51.507351,
     },
+    location: "London, United Kingdom",
   },
   {
     id: 3,
@@ -60,9 +63,10 @@ let mockProfiles = [
       github: "https://github.com/AliceJohnson",
     },
     coordinates: {
-      longitude: -74.009057,
-      latitude: 40.712776, 
+      longitude: 40.75726,
+      latitude: -73.9859,
     },
+    location: "Times Square, USA",
   },
   {
     id: 4,
@@ -78,9 +82,11 @@ let mockProfiles = [
       github: "https://github.com/RobertBrown",
     },
     coordinates: {
-      longitude: 2.294481,
-      latitude: 48.85837,
+      latitude: 121.47039,
+      longitude: 31.23213,
     },
+    location:
+      "Chong Hing Finance Center,Huang Pu Qu, Shang Hai Shi, China, 200003",
   },
   {
     id: 5,
@@ -96,9 +102,10 @@ let mockProfiles = [
       github: "https://github.com/EmilyDavis",
     },
     coordinates: {
-      longitude: 151.215256,
-      latitude: -33.856159,
+      latitude: 52.926195,
+      longitude: -112.471509,
     },
+    location: "Camrose County Alberta Canada",
   },
   {
     id: 6,
@@ -113,8 +120,8 @@ let mockProfiles = [
       github: "https://github.com/MichaelGreen",
     },
     coordinates: {
-      longitude: 139.699305,
-      latitude: 35.689487,
+      latitude: 53.590522,
+      longitude: -118.266793,
     },
   },
   {
@@ -131,9 +138,10 @@ let mockProfiles = [
       github: "https://github.com/SamanthaLee",
     },
     coordinates: {
-      longitude: 12.496365,
-      latitude: 41.902783,
+      latitude: 12.496365,
+      longitude: 41.902783,
     },
+    location: "Agensera, Ethiopia",
   },
   {
     id: 8,
@@ -149,9 +157,10 @@ let mockProfiles = [
       github: "https://github.com/DavidWilson",
     },
     coordinates: {
-      longitude: -43.172896,
-      latitude: -22.906847,
+      latitude: 58.55021,
+      longitude: -120.884932,
     },
+    location: "Northern Rockies British Columbia Canada",
   },
   {
     id: 9,
@@ -167,9 +176,10 @@ let mockProfiles = [
       github: "https://github.com/LauraMartinez",
     },
     coordinates: {
-      longitude: -3.70379,
-      latitude: 40.416775,
+      latitude: 44.105925,
+      longitude: -98.092164,
     },
+    location: "South Dakota United States",
   },
   {
     id: 10,
@@ -185,9 +195,10 @@ let mockProfiles = [
       github: "https://github.com/JamesTaylor",
     },
     coordinates: {
-      longitude: 116.407396,
-      latitude: 39.9042,
+      latitude: 36.15003,
+      longitude: -91.987201,
     },
+    location: "Arkansas United States",
   },
   {
     id: 11,
@@ -203,9 +214,10 @@ let mockProfiles = [
       github: "https://github.com/NatalieRoberts",
     },
     coordinates: {
-      longitude: -87.629798,
-      latitude: 41.878114,
+      longitude: 40.583587,
+      latitude: -109.281811,
     },
+    location: "Uintah County Utah USA",
   },
   {
     id: 12,
@@ -221,9 +233,10 @@ let mockProfiles = [
       github: "https://github.com/WilliamHarris",
     },
     coordinates: {
-      longitude: 18.424055,
-      latitude: -33.924869,
+      latitude: 39.053515,
+      longitude: -100.388508,
     },
+    location: "Gove County Kansas USA",
   },
 ];
 

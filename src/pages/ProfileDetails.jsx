@@ -66,6 +66,10 @@ const ProfileDetails = () => {
                   <span className="font-semibold">Interests:</span>{" "}
                   {profile.interests || "N/A"}
                 </p>
+                <p className="text-gray-600 text-center mb-4">
+                  <span className="font-semibold">Location:</span>{" "}
+                  {profile.location || "N/A"}
+                </p>
 
                 <div className="text-center mb-4">
                   <p className="text-gray-600 mb-2">

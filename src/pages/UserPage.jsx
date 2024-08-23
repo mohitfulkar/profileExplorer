@@ -11,7 +11,6 @@ const UserPage = () => {
   const [filteredProfiles, setFilteredProfiles] = useState([]);
 
   useEffect(() => {
-    // Fetch profiles from localStorage
     const storedProfiles = localStorage.getItem("profiles");
     if (storedProfiles) {
       const profilesData = JSON.parse(storedProfiles);
@@ -21,10 +20,8 @@ const UserPage = () => {
   }, []);
 
   useEffect(() => {
-    // Filter profiles based on the search term
     const filtered = profiles.filter(
       (profile) =>
-      
         profile.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         (profile.description &&
           profile.description
@@ -33,7 +30,9 @@ const UserPage = () => {
         (profile.interests &&
           profile.interests.toLowerCase().includes(searchTerm.toLowerCase())) ||
         (profile.contact &&
-          profile.contact.toLowerCase().includes(searchTerm.toLowerCase()))
+          profile.contact.toLowerCase().includes(searchTerm.toLowerCase())) ||
+        (profile.location &&
+          profile.location.toLowerCase().includes(searchTerm.toLowerCase()))
     );
     setFilteredProfiles(filtered);
   }, [searchTerm, profiles]);
