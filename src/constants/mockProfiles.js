@@ -1,15 +1,5 @@
-// mockData.js
-import Pic1 from "../images/pic1.jpg";
-import Pic2 from "../images/pic2.jpg";
-import Pic3 from "../images/pic3.jpg";
-import Pic4 from "../images/pic4.jpg";
-import Pic5 from "../images/pic5.jpg";
-import Pic6 from "../images/pic6.jpg";
-import Pic7 from "../images/pic7.jpg";
-import Pic8 from "../images/Pic8.jpg";
-import Pic9 from "../images/Pic9.jpg";
-import Pic10 from "../images/Pic10.jpg";
-import { LuActivity } from "react-icons/lu";
+import MaleImage from "../images/MaleImage.png";
+import FemaleImage from "../images/FemaleImage.png";
 
 let mockProfiles = [
   {
@@ -17,7 +7,7 @@ let mockProfiles = [
     name: "John Doe",
     description:
       "Software Engineer with 5 years of experience in full-stack development.",
-    photo: Pic1,
+    photo: MaleImage,
     contact: "John.doe@example.com",
     interests: "Coding, Football, Gaming",
     socialMedia: {
@@ -36,7 +26,7 @@ let mockProfiles = [
     name: "Jane Smith",
     description:
       "Creative Director specializing in branding and visual design.",
-    photo: Pic2,
+    photo: MaleImage,
     contact: "Jane.doe@example.com",
     interests: "Coding, Cricket, Gaming",
     socialMedia: {
@@ -54,7 +44,7 @@ let mockProfiles = [
     id: 3,
     name: "Alice Johnson",
     description: "Data Scientist with a passion for AI and machine learning.",
-    photo: Pic3,
+    photo: FemaleImage,
     contact: "Alice.doe@example.com",
     interests: "Coding, brainwashing, Gaming",
     socialMedia: {
@@ -63,8 +53,8 @@ let mockProfiles = [
       github: "https://github.com/AliceJohnson",
     },
     coordinates: {
-      longitude: 40.75726,
-      latitude: -73.9859,
+      latitude: 40.758032, 
+      longitude: -73.985779,
     },
     location: "Times Square, USA",
   },
@@ -73,7 +63,7 @@ let mockProfiles = [
     name: "Robert Brown",
     description:
       "Experienced project manager with a focus on agile methodologies.",
-    photo: Pic4,
+    photo: MaleImage,
     contact: "Robert.doe@example.com",
     interests: "Coding, Hiking, Gaming",
     socialMedia: {
@@ -93,7 +83,7 @@ let mockProfiles = [
     name: "Emily Davis",
     description:
       "UX/UI Designer with a knack for creating intuitive user interfaces.",
-    photo: Pic5,
+    photo: FemaleImage,
     contact: "Emily.doe@example.com",
     interests: "Coding, Hiking, Gaming",
     socialMedia: {
@@ -111,7 +101,7 @@ let mockProfiles = [
     id: 6,
     name: "Michael Green",
     description: "Digital Marketer with expertise in SEO and content strategy.",
-    photo: Pic6,
+    photo: MaleImage,
     contact: "Michael.doe@example.com",
     interests: "Coding, Hiking, Gaming",
     socialMedia: {
@@ -129,7 +119,7 @@ let mockProfiles = [
     name: "Samantha Lee",
     description:
       "Front-end Developer with a love for creating responsive and interactive web applications.",
-    photo: Pic7,
+    photo: FemaleImage,
     contact: "Samantha.doe@example.com",
     interests: "Coding, Hiking, Gaming",
     socialMedia: {
@@ -148,7 +138,7 @@ let mockProfiles = [
     name: "David Wilson",
     description:
       "Systems Analyst with a focus on data analysis and business intelligence.",
-    photo: Pic8,
+    photo: MaleImage,
     contact: "David.doe@example.com",
     interests: "Coding, Hiking, Gaming",
     socialMedia: {
@@ -167,7 +157,7 @@ let mockProfiles = [
     name: "Laura Martinez",
     description:
       "Product Manager with experience in managing cross-functional teams and product lifecycles.",
-    photo: Pic9,
+    photo: FemaleImage,
     contact: "Laura.doe@example.com",
     interests: "Coding, Hiking, Gaming",
     socialMedia: {
@@ -186,7 +176,7 @@ let mockProfiles = [
     name: "James Taylor",
     description:
       "Cybersecurity Expert specializing in threat detection and response.",
-    photo: Pic10,
+    photo: MaleImage,
     contact: "James.doe@example.com",
     interests: "Coding, Hiking, Gaming",
     socialMedia: {
@@ -205,7 +195,7 @@ let mockProfiles = [
     name: "Natalie Roberts",
     description:
       "Sales Executive with a proven track record in increasing revenue and building client relationships.",
-    photo: Pic5,
+    photo: FemaleImage,
     contact: "Natalie.doe@example.com",
     interests: "Coding, Hiking, Gaming",
     socialMedia: {
@@ -224,7 +214,7 @@ let mockProfiles = [
     name: "William Harris",
     description:
       "Operations Manager focused on improving operational efficiency and team productivity.",
-    photo: Pic6,
+    photo: MaleImage,
     contact: "William.doe@example.com",
     interests: "Coding, Hiking, Gaming",
     socialMedia: {
