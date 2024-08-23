@@ -227,43 +227,4 @@ let mockProfiles = [
   },
 ];
 
-export const getProfiles = async () => {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(mockProfiles);
-    }, 500); // Simulate network delay
-  });
-};
-
-export const addProfile = async (newProfile) => {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      const id = mockProfiles.length
-        ? Math.max(mockProfiles.map((p) => p.id)) + 1
-        : 1;
-      mockProfiles.push({ ...newProfile, id });
-      resolve();
-    }, 500); // Simulate network delay
-  });
-};
-
-export const updateProfile = async (updatedProfile) => {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      mockProfiles = mockProfiles.map((profile) =>
-        profile.id === updatedProfile.id ? updatedProfile : profile
-      );
-      resolve();
-    }, 500); // Simulate network delay
-  });
-};
-
-export const deleteProfile = async (id) => {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      mockProfiles = mockProfiles.filter((profile) => profile.id !== id);
-      resolve();
-    }, 500); // Simulate network delay
-  });
-};
 export { mockProfiles };
