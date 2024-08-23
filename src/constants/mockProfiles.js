@@ -16,10 +16,10 @@ let mockProfiles = [
       github: "https://github.com/robertbroJohnDoewn",
     },
     coordinates: {
-      longitude: -0.127647,
-      latitude: 51.507351,
+      latitude: 51.517527,
+      longitude: -0.206273,
     },
-    location: "London, United Kingdom",
+    location: "252-240 Portobello Rd, London W11 1LL, UK",
   },
   {
     id: 2,
@@ -35,10 +35,10 @@ let mockProfiles = [
       github: "https://github.com/JaneSmith",
     },
     coordinates: {
-      longitude: -0.127647,
-      latitude: 51.507351,
+      latitude: 51.518498,
+      longitude: -0.128448,
     },
-    location: "London, United Kingdom",
+    location: "21 Bloomsbury St, London WC1B 3HF, UK",
   },
   {
     id: 3,
@@ -53,10 +53,10 @@ let mockProfiles = [
       github: "https://github.com/AliceJohnson",
     },
     coordinates: {
-      latitude: 40.758032, 
-      longitude: -73.985779,
+      latitude: 40.758052,
+      longitude: -73.985629,
     },
-    location: "Times Square, USA",
+    location: "192-184 W 45th St, New York, NY 10036, USA",
   },
   {
     id: 4,
@@ -72,8 +72,8 @@ let mockProfiles = [
       github: "https://github.com/RobertBrown",
     },
     coordinates: {
-      latitude: 121.47039,
-      longitude: 31.23213,
+      latitude: 31.232335,
+      longitude: 121.469677,
     },
     location:
       "Chong Hing Finance Center,Huang Pu Qu, Shang Hai Shi, China, 200003",
@@ -99,20 +99,22 @@ let mockProfiles = [
   },
   {
     id: 6,
-    name: "Michael Green",
+    name: "Samay Mhatre",
     description: "Digital Marketer with expertise in SEO and content strategy.",
     photo: MaleImage,
-    contact: "Michael.doe@example.com",
-    interests: "Coding, Hiking, Gaming",
+    contact: "samaymhatre@example.com",
+    interests: "Coding, Riding, reading",
     socialMedia: {
-      linkedin: "https://www.linkedin.com/in/MichaelGreen",
-      twitter: "https://twitter.com/MichaelGreen",
-      github: "https://github.com/MichaelGreen",
+      linkedin: "https://www.linkedin.com/in/samaymhatre",
+      twitter: "https://twitter.com/samaymhatre",
+      github: "https://github.com/samaymhatre",
     },
     coordinates: {
-      latitude: 53.590522,
-      longitude: -118.266793,
+      latitude: 18.591823,
+      longitude: 73.738472,
     },
+    location:
+      "Hinjawadi Village, Hinjawadi, Pimpri-Chinchwad, Maharashtra 411057",
   },
   {
     id: 7,
@@ -128,10 +130,10 @@ let mockProfiles = [
       github: "https://github.com/SamanthaLee",
     },
     coordinates: {
-      latitude: 12.496365,
-      longitude: 41.902783,
+      latitude: 52.020465,
+      longitude: 10.15436,
     },
-    location: "Agensera, Ethiopia",
+    location: "Am Krohm 4, 31167 Bockenem, Germany",
   },
   {
     id: 8,
@@ -147,10 +149,10 @@ let mockProfiles = [
       github: "https://github.com/DavidWilson",
     },
     coordinates: {
-      latitude: 58.55021,
-      longitude: -120.884932,
+      latitude: 50.131862,
+      longitude: 8.682095,
     },
-    location: "Northern Rockies British Columbia Canada",
+    location: "B8 19-7, 60322 Frankfurt am Main, Germany",
   },
   {
     id: 9,
@@ -166,10 +168,10 @@ let mockProfiles = [
       github: "https://github.com/LauraMartinez",
     },
     coordinates: {
-      latitude: 44.105925,
-      longitude: -98.092164,
+      latitude: 24.833458,
+      longitude: -103.691792,
     },
-    location: "South Dakota United States",
+    location: "35830 San Pedro de Ocuila, Durango, Mexico",
   },
   {
     id: 10,
@@ -185,10 +187,10 @@ let mockProfiles = [
       github: "https://github.com/JamesTaylor",
     },
     coordinates: {
-      latitude: 36.15003,
-      longitude: -91.987201,
+      latitude: 22.599241,
+      longitude: -101.165101,
     },
-    location: "Arkansas United States",
+    location: "78919 San Luis Potosi, Mexico",
   },
   {
     id: 11,
@@ -204,10 +206,10 @@ let mockProfiles = [
       github: "https://github.com/NatalieRoberts",
     },
     coordinates: {
-      longitude: 40.583587,
-      latitude: -109.281811,
+      latitude: 57.03668,
+      longitude: -111.608289,
     },
-    location: "Uintah County Utah USA",
+    location: "AB-63, Wood Buffalo, AB T0P 1C0, Canada",
   },
   {
     id: 12,
