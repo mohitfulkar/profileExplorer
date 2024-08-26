@@ -8,7 +8,7 @@ import { mockProfiles } from "./constants/mockProfiles.js";
 const initializeLocalStorage = () => {
   // Check if profiles already exist in localStorage
   const profiles = localStorage.getItem("profiles");
-  if (profiles) {
+  if (!profiles) {
     console.log("Initializing localStorage with mockProfiles...");
     localStorage.setItem("profiles", JSON.stringify(mockProfiles));
   }
