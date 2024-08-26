@@ -23,7 +23,7 @@ const AdminNavbar = () => {
           {isDropdownOpen && (
             <div className="absolute right-0 mt-2 w-48 bg-white text-gray-700 shadow-lg rounded-lg">
               <Link
-                to="/userpage"
+                to="/admin"
                 className="block px-4 py-2 hover:bg-gray-100 transition-colors duration-300"
                 onClick={() => setIsDropdownOpen(false)}
               >
