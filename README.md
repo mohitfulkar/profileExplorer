@@ -1,3 +1,5 @@
+Note : If you want run the app again. ensure your local Storage must be clear (must not have profiles key). You can clear it from Developer tools - Application - localStorage
+
 # React + Vite
 
 Profile Explorer Web Application
